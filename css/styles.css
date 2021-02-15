@@ -1,0 +1,63 @@
+*{ 
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 80%;
+}
+
+header{
+    background-color: #3a3d40;
+    height: 100px;
+}
+
+nav{
+    margin: 0 10% 0 0
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li{
+    float: right;
+}
+
+nav a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.post-info{
+    display: flex;
+}
+.date{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 8px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    background-color: #3a3d40;
+}
+
+.footer-bottom{
+    background-color: #2f3235
+}
